@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="fevicon.png">
+    <title>krishna_sign_up_form</title>
+</head>
+<body>
+    <form method="post" class="main">
+        <h1>Signup</h1>
+        <input class="input-box" type="text" placeholder="Full Name" required>
+        <input class="input-box" type="email" placeholder="Email" required>
+        <input class="input-box" type="password" placeholder="Password" required>
+        <input class="input-box" type="password" placeholder="Confirm Password" required>
+        <input class="input-box" type="date" placeholder="MM/DD/YYYY" required>
+        
+        <div class="radio-box">
+        <input type="radio" id="student" name="type" value="employee" required>
+            <label for="student">Student</label>
+        </div>
+        
+        <div class="radio-box">
+        <input type="radio" id="employee" name="type" value="employee" required>
+            <label for="employee">Employee</label>
+        </div>
+        <div class="agree-box">
+        <input type="checkbox" id="agree" required>
+            <label for="agree">I agree to all the Terms and conditions</label>
+        </div>
+
+        <button type="submit" id="s-btn">Signup</button>
+    </form>
+    
+</body>
+</html>
